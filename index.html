@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kev — Building Technologist & Web Developer</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+
+  /* HERO */
+  .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #fff;
+    padding: 80px 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 16px; line-height: 1.2; }
+  .hero h1 span { color: #f59e0b; }
+  .hero p { font-size: 1.1rem; color: #cbd5e1; margin-bottom: 30px; max-width: 600px; margin-left: auto; margin-right: auto; }
+  
+  .btn {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 6px 4px;
+    transition: transform 0.2s;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-email { background: #ea4335; }
+  .btn-insta { background: #E1306C; }
+
+  /* SECTIONS */
+  section { padding: 60px 20px; }
+  .section-title { font-size: 1.8rem; font-weight: 800; color: #0f172a; margin-bottom: 30px; }
+
+  /* SERVICES */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-top: 4px solid #f59e0b;
+  }
+  .card .icon { font-size: 2.5rem; margin-bottom: 15px; display: block; }
+  .card h3 { font-size: 1.2rem; margin-bottom: 10px; color: #0f172a; }
+  .card p { color: #64748b; font-size: 0.95rem; }
+
+  /* CONTACT */
+  .contact { background: #0f172a; color: #fff; border-radius: 20px 20px 0 0; }
+  .contact p { color: #cbd5e1; margin-bottom: 20px; }
+  .contact-info { margin-top: 30px; color: #94a3b8; font-size: 0.95rem; }
+  .contact-info a { color: #f59e0b; text-decoration: none; }
+
+  /* FOOTER */
+  footer { background: #020617; color: #64748b; padding: 20px; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<header class="hero">
+  <div class="container">
+    <h1>Building, Designing &<br><span>Web Solutions</span> You Can Trust</h1>
+    <p>I'm Kev — a certified Building Technologist and Web Developer. From architectural drawings to finished builds and secure websites, I deliver quality work on time.</p>
+    <a href="https://wa.me/254703705511?text=Hello%20Kev%2C%20I%20need%20help%20with" class="btn">💬 Chat on WhatsApp</a>
+    <a href="mailto:elitegraphics33@gmail.com" class="btn btn-email">✉️ Email Me</a>
+  </div>
+</header>
+
+<!-- SERVICES SECTION -->
+<section>
+  <div class="container">
+    <h2 class="section-title">What I Do</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <span class="icon">🏗️</span>
+        <h3>Building Technician</h3>
+        <p>On-site supervision, structural design, and construction support for residential and commercial projects.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">💻</span>
+        <h3>Web Development</h3>
+        <p>Fast, responsive, and secure websites using HTML, CSS, JavaScript, and Python.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">📐</span>
+        <h3>Drawing & Design</h3>
+        <p>Accurate 2D and 3D architectural drawings, house plans, and permit-ready designs.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">🔐</span>
+        <h3>Secret Cipher Code</h3>
+        <p>Secure your digital assets with custom encryption, obfuscation, and cipher scripts.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+  <div class="container">
+    <h2 class="section-title" style="color:#fff;">Let's Work Together</h2>
+    <p>Reach out directly and I'll reply as soon as possible.</p>
+    
+    <div style="margin-bottom: 20px;">
+      <a href="https://wa.me/254703705511" class="btn">💬 WhatsApp</a>
+      <a href="mailto:elitegraphics33@gmail.com" class="btn btn-email">✉️ Email</a>
+      <a href="https://instagram.com/k.oe.ch" target="_blank" class="btn btn-insta">📸 Instagram</a>
+    </div>
+
+    <div class="contact-info">
+      <p>📞 <a href="tel:+254703705511">+254 703 705 511</a></p>
+      <p>✉️ <a href="mailto:elitegraphics33@gmail.com">elitegraphics33@gmail.com</a></p>
+      <p>📍 Kenya | 🕐 Mon–Sat: 8AM – 6PM</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Kev — Building Technologist & Web Developer.</p>
+</footer>
+
+</body>
+</html>
